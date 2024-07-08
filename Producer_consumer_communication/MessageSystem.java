@@ -1,3 +1,6 @@
+//SOLUTION 2
+// Num of subscribers given as 5 in the program itself
+
 import java.util.ArrayList;
 import java.util.List;
 
