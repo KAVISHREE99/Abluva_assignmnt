@@ -1,3 +1,6 @@
+//SOLUTION 1
+// Need to give two inputs on executing the program as type of message passing as broadcast or atleast n or atmost n and count of the consumers participating in the communication.
+
 import java.util.*;
 
 class Msgpass2 {
