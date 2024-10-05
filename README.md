@@ -1,4 +1,4 @@
-# Abluva_assignmnt
+# Synchronization and concurrency
 **Problem 1 :**  
 <br/>To create a system like a ticket booking system. The people who need to book tickets can access this with their own separate systems. Also people can return their tickets back to the counter. All these are considered as a separate and an independent process. Our system must be good enough to manage both booking and withdrawal which are performed at same time. The system should not overlap any values or stay still and not updating the values of available tickets
 
@@ -11,6 +11,7 @@ Scenario 2: If there are 100 tickets and 3 members entered to book tickets and s
 
 Next synchronization, is also an important topic. Synchronization is the process that allows only one thread at a particular time to complete a given task entirely. I considered these two as the main concepts, to solve this problem and given an approach with java programming language.
 
+#Multi-Threading
 **Problem 2 :**
 
 To create a communication system like a message pass passing system. Here only one producer can communicate with many consumers, which means one producer can send messages to n consumers. There are three conditions we need to apply here with the problem. Firstly, if the condition given as broadcast then all the consumers who are active should receive the message from the producer. Secondly, if the condition is given as at least n, then minimum cost of n members must receive the message otherwise no one can read it. Thirdly, if the condition is given as at most of n, then maximum of n people should be active to receive the message otherwise no one can read the message.  
